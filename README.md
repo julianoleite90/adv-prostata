@@ -36,11 +36,10 @@ vercel --prod
 ├── advertorial-prostata-tailwind.html  # Versão com Tailwind
 ├── advertorial-prostata.html           # Versão original
 ├── vercel.json            # Configuração do Vercel
-├── images/                # Imagens do projeto
-│   ├── especialista1.png
-│   ├── maxprot.png
-│   ├── prostcare-img.png
-│   └── suport.png
+├── especialista1.png      # Imagem do especialista
+├── maxprot.png            # Imagem do MaxProst
+├── prostcare-img.png      # Imagem do ProstCare
+├── suport.png             # Imagem do Prostate Support
 └── README.md
 ```
 
