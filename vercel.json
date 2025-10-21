@@ -1,15 +1,16 @@
 {
   "version": 2,
+  "name": "estimulantes-naturais",
   "builds": [
     {
-      "src": "advertorial-prostata-tailwind.html",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/advertorial-prostata-tailwind.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
