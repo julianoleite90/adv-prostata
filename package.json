@@ -1,0 +1,13 @@
+{
+  "name": "estimulantes-naturais",
+  "version": "1.0.0",
+  "description": "Site sobre tratamentos naturais para próstata",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site'",
+    "start": "echo 'Static site'"
+  },
+  "keywords": ["próstata", "tratamentos", "naturais"],
+  "author": "Saúde Moderna",
+  "license": "MIT"
+}
