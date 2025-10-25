@@ -7,6 +7,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "analise-prostata.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "public/**",
       "use": "@vercel/static"
     },
@@ -25,7 +29,15 @@
       "dest": "/$1"
     },
     {
-      "src": "/(.*)",
+      "src": "/analise-prostata",
+      "dest": "/analise-prostata.html"
+    },
+    {
+      "src": "/analise-prostata.html",
+      "dest": "/analise-prostata.html"
+    },
+    {
+      "src": "/",
       "dest": "/index.html"
     }
   ]
