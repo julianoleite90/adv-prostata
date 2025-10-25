@@ -1,44 +1,35 @@
 {
   "version": 2,
-  "name": "estimulantes-naturais",
   "builds": [
     {
-      "src": "index.html",
+      "src": "site/index.html",
       "use": "@vercel/static"
     },
     {
-      "src": "analise-prostata.html",
+      "src": "site/advertorial.html",
       "use": "@vercel/static"
     },
     {
-      "src": "public/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.png",
+      "src": "site/*.png",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
+      "src": "/advertorial",
+      "dest": "/site/advertorial.html"
+    },
+    {
+      "src": "/advertorial.html",
+      "dest": "/site/advertorial.html"
     },
     {
       "src": "/(.*\\.png)",
-      "dest": "/$1"
-    },
-    {
-      "src": "/analise-prostata",
-      "dest": "/analise-prostata.html"
-    },
-    {
-      "src": "/analise-prostata.html",
-      "dest": "/analise-prostata.html"
+      "dest": "/site/$1"
     },
     {
       "src": "/",
-      "dest": "/index.html"
+      "dest": "/site/index.html"
     }
   ]
 }
