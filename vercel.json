@@ -20,10 +20,6 @@
       "dest": "/site/advertorial.html"
     },
     {
-      "src": "/advertorial.html",
-      "dest": "/site/advertorial.html"
-    },
-    {
       "src": "/(.*\\.png)",
       "dest": "/site/$1"
     },
